@@ -65,7 +65,6 @@ static const CGFloat kConnectorThickness = 1.0;
   
 //  drawLines(withContext: NSGraphicsContext.current!.cgContext)
   [self _drawLinesWithContext:NSGraphicsContext.currentContext.CGContext];
-  NSLog(@"_drawLinesWithContext");
 //  drawConnectors(withContext: NSGraphicsContext.current!.cgContext)
   [self _drawConnectorsWithContext:NSGraphicsContext.currentContext.CGContext];
 //  drawPivotsToContext(context: NSGraphicsContext.current!.cgContext)
@@ -77,7 +76,10 @@ static const CGFloat kConnectorThickness = 1.0;
 {
   [_bars enumerateObjectsUsingBlock:^(Bar * _Nonnull bar, NSUInteger index, BOOL * _Nonnull stop) {
     CGFloat barWidth = [self _barWidth];
-    CGRect subRect = CGRectMake(barWidth, (CGFloat)index , barWidth, self.frame.size.height);
+    CGRect subRect = CGRectMake(barWidth * (CGFloat)index,
+                                0,
+                                barWidth,
+                                self.frame.size.height);
     [self _drawTwineInRect:subRect withContext:context];
   }];
 }
