@@ -7,6 +7,8 @@
 //
 
 #import <ScreenSaver/ScreenSaver.h>
+#import "ArtBox.h"
+#import "Bar.h"
 
 @interface WavesSaverCView : ScreenSaverView
 

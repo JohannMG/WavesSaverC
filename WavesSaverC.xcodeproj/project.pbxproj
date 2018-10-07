@@ -7,33 +7,129 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2DC82C51215CAA2400B72DDC /* WavesSaverCView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DC82C50215CAA2400B72DDC /* WavesSaverCView.h */; };
-		2DC82C53215CAA2400B72DDC /* WavesSaverCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC82C52215CAA2400B72DDC /* WavesSaverCView.m */; };
+		2D94B7D221698C0500301437 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D94B7D121698C0500301437 /* ScreenSaver.framework */; };
+		2D94B7D421698C0C00301437 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D94B7D321698C0C00301437 /* Cocoa.framework */; };
+		2D94B7D621698C1200301437 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D94B7D521698C1200301437 /* AppKit.framework */; };
+		2D94B7DF2169943900301437 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D94B7DE2169943900301437 /* AppDelegate.m */; };
+		2D94B7E12169943B00301437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D94B7E02169943B00301437 /* Assets.xcassets */; };
+		2D94B7E42169943B00301437 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D94B7E22169943B00301437 /* MainMenu.xib */; };
+		2D94B7E72169943B00301437 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D94B7E62169943B00301437 /* main.m */; };
+		2D94B7F22169943B00301437 /* WavesSaverLoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D94B7F12169943B00301437 /* WavesSaverLoaderTests.m */; };
+		2D94B804216995CC00301437 /* WavesSaverCView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DC82C50215CAA2400B72DDC /* WavesSaverCView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D94B805216995CC00301437 /* Bar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DC82C5A215CAADA00B72DDC /* Bar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D94B806216995CC00301437 /* ArtBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DC82C5E215CB4D000B72DDC /* ArtBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D94B807216995D300301437 /* WavesSaverCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC82C52215CAA2400B72DDC /* WavesSaverCView.m */; };
+		2D94B808216995D300301437 /* Bar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC82C5B215CAADA00B72DDC /* Bar.m */; };
+		2D94B809216995D300301437 /* ArtBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC82C5F215CB4D000B72DDC /* ArtBox.m */; };
+		2D94B80E216996E400301437 /* WavesSaverCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC82C52215CAA2400B72DDC /* WavesSaverCView.m */; };
+		2D94B80F216996E400301437 /* Bar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC82C5B215CAADA00B72DDC /* Bar.m */; };
+		2D94B810216996E400301437 /* ArtBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC82C5F215CB4D000B72DDC /* ArtBox.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2D94B7EE2169943B00301437 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DC82C44215CAA2300B72DDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D94B7DA2169943900301437;
+			remoteInfo = WavesSaverLoader;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		2D94B7D121698C0500301437 /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		2D94B7D321698C0C00301437 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2D94B7D521698C1200301437 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2D94B7DB2169943900301437 /* WavesSaverLoader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WavesSaverLoader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D94B7DD2169943900301437 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D94B7DE2169943900301437 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D94B7E02169943B00301437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D94B7E32169943B00301437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2D94B7E52169943B00301437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D94B7E62169943B00301437 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D94B7E82169943B00301437 /* WavesSaverLoader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WavesSaverLoader.entitlements; sourceTree = "<group>"; };
+		2D94B7ED2169943B00301437 /* WavesSaverLoaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WavesSaverLoaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D94B7F12169943B00301437 /* WavesSaverLoaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WavesSaverLoaderTests.m; sourceTree = "<group>"; };
+		2D94B7F32169943B00301437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DC82C4D215CAA2400B72DDC /* WavesSaverC.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WavesSaverC.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DC82C50215CAA2400B72DDC /* WavesSaverCView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WavesSaverCView.h; sourceTree = "<group>"; };
 		2DC82C52215CAA2400B72DDC /* WavesSaverCView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WavesSaverCView.m; sourceTree = "<group>"; };
 		2DC82C54215CAA2400B72DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DC82C5A215CAADA00B72DDC /* Bar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bar.h; sourceTree = "<group>"; };
+		2DC82C5B215CAADA00B72DDC /* Bar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bar.m; sourceTree = "<group>"; };
+		2DC82C5E215CB4D000B72DDC /* ArtBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtBox.h; sourceTree = "<group>"; };
+		2DC82C5F215CB4D000B72DDC /* ArtBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtBox.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2DC82C4A215CAA2300B72DDC /* Frameworks */ = {
+		2D94B7D82169943900301437 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2D94B7EA2169943B00301437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DC82C4A215CAA2300B72DDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D94B7D621698C1200301437 /* AppKit.framework in Frameworks */,
+				2D94B7D421698C0C00301437 /* Cocoa.framework in Frameworks */,
+				2D94B7D221698C0500301437 /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D94B7D021698C0500301437 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D94B7D521698C1200301437 /* AppKit.framework */,
+				2D94B7D321698C0C00301437 /* Cocoa.framework */,
+				2D94B7D121698C0500301437 /* ScreenSaver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D94B7DC2169943900301437 /* WavesSaverLoader */ = {
+			isa = PBXGroup;
+			children = (
+				2D94B7DD2169943900301437 /* AppDelegate.h */,
+				2D94B7DE2169943900301437 /* AppDelegate.m */,
+				2D94B7E02169943B00301437 /* Assets.xcassets */,
+				2D94B7E22169943B00301437 /* MainMenu.xib */,
+				2D94B7E52169943B00301437 /* Info.plist */,
+				2D94B7E62169943B00301437 /* main.m */,
+				2D94B7E82169943B00301437 /* WavesSaverLoader.entitlements */,
+			);
+			path = WavesSaverLoader;
+			sourceTree = "<group>";
+		};
+		2D94B7F02169943B00301437 /* WavesSaverLoaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D94B7F12169943B00301437 /* WavesSaverLoaderTests.m */,
+				2D94B7F32169943B00301437 /* Info.plist */,
+			);
+			path = WavesSaverLoaderTests;
+			sourceTree = "<group>";
+		};
 		2DC82C43215CAA2300B72DDC = {
 			isa = PBXGroup;
 			children = (
 				2DC82C4F215CAA2400B72DDC /* WavesSaverC */,
+				2D94B7DC2169943900301437 /* WavesSaverLoader */,
+				2D94B7F02169943B00301437 /* WavesSaverLoaderTests */,
 				2DC82C4E215CAA2400B72DDC /* Products */,
+				2D94B7D021698C0500301437 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -41,6 +137,8 @@
 			isa = PBXGroup;
 			children = (
 				2DC82C4D215CAA2400B72DDC /* WavesSaverC.saver */,
+				2D94B7DB2169943900301437 /* WavesSaverLoader.app */,
+				2D94B7ED2169943B00301437 /* WavesSaverLoaderTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,6 +149,10 @@
 				2DC82C50215CAA2400B72DDC /* WavesSaverCView.h */,
 				2DC82C52215CAA2400B72DDC /* WavesSaverCView.m */,
 				2DC82C54215CAA2400B72DDC /* Info.plist */,
+				2DC82C5A215CAADA00B72DDC /* Bar.h */,
+				2DC82C5B215CAADA00B72DDC /* Bar.m */,
+				2DC82C5E215CB4D000B72DDC /* ArtBox.h */,
+				2DC82C5F215CB4D000B72DDC /* ArtBox.m */,
 			);
 			path = WavesSaverC;
 			sourceTree = "<group>";
@@ -62,13 +164,50 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DC82C51215CAA2400B72DDC /* WavesSaverCView.h in Headers */,
+				2D94B805216995CC00301437 /* Bar.h in Headers */,
+				2D94B806216995CC00301437 /* ArtBox.h in Headers */,
+				2D94B804216995CC00301437 /* WavesSaverCView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2D94B7DA2169943900301437 /* WavesSaverLoader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D94B7F82169943B00301437 /* Build configuration list for PBXNativeTarget "WavesSaverLoader" */;
+			buildPhases = (
+				2D94B7D72169943900301437 /* Sources */,
+				2D94B7D82169943900301437 /* Frameworks */,
+				2D94B7D92169943900301437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WavesSaverLoader;
+			productName = WavesSaverLoader;
+			productReference = 2D94B7DB2169943900301437 /* WavesSaverLoader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D94B7EC2169943B00301437 /* WavesSaverLoaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D94B7F92169943B00301437 /* Build configuration list for PBXNativeTarget "WavesSaverLoaderTests" */;
+			buildPhases = (
+				2D94B7E92169943B00301437 /* Sources */,
+				2D94B7EA2169943B00301437 /* Frameworks */,
+				2D94B7EB2169943B00301437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D94B7EF2169943B00301437 /* PBXTargetDependency */,
+			);
+			name = WavesSaverLoaderTests;
+			productName = WavesSaverLoaderTests;
+			productReference = 2D94B7ED2169943B00301437 /* WavesSaverLoaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		2DC82C4C215CAA2300B72DDC /* WavesSaverC */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DC82C57215CAA2400B72DDC /* Build configuration list for PBXNativeTarget "WavesSaverC" */;
@@ -96,6 +235,13 @@
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = johannmg;
 				TargetAttributes = {
+					2D94B7DA2169943900301437 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					2D94B7EC2169943B00301437 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 2D94B7DA2169943900301437;
+					};
 					2DC82C4C215CAA2300B72DDC = {
 						CreatedOnToolsVersion = 10.0;
 					};
@@ -107,6 +253,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 2DC82C43215CAA2300B72DDC;
 			productRefGroup = 2DC82C4E215CAA2400B72DDC /* Products */;
@@ -114,11 +261,29 @@
 			projectRoot = "";
 			targets = (
 				2DC82C4C215CAA2300B72DDC /* WavesSaverC */,
+				2D94B7DA2169943900301437 /* WavesSaverLoader */,
+				2D94B7EC2169943B00301437 /* WavesSaverLoaderTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2D94B7D92169943900301437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D94B7E12169943B00301437 /* Assets.xcassets in Resources */,
+				2D94B7E42169943B00301437 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D94B7EB2169943B00301437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2DC82C4B215CAA2300B72DDC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -129,17 +294,132 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2D94B7D72169943900301437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D94B80E216996E400301437 /* WavesSaverCView.m in Sources */,
+				2D94B80F216996E400301437 /* Bar.m in Sources */,
+				2D94B810216996E400301437 /* ArtBox.m in Sources */,
+				2D94B7E72169943B00301437 /* main.m in Sources */,
+				2D94B7DF2169943900301437 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D94B7E92169943B00301437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D94B7F22169943B00301437 /* WavesSaverLoaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2DC82C49215CAA2300B72DDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DC82C53215CAA2400B72DDC /* WavesSaverCView.m in Sources */,
+				2D94B807216995D300301437 /* WavesSaverCView.m in Sources */,
+				2D94B808216995D300301437 /* Bar.m in Sources */,
+				2D94B809216995D300301437 /* ArtBox.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		2D94B7EF2169943B00301437 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D94B7DA2169943900301437 /* WavesSaverLoader */;
+			targetProxy = 2D94B7EE2169943B00301437 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2D94B7E22169943B00301437 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D94B7E32169943B00301437 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		2D94B7F42169943B00301437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WavesSaverLoader/WavesSaverLoader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 669DAFDR74;
+				INFOPLIST_FILE = WavesSaverLoader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johannmg.WavesSaverLoader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2D94B7F52169943B00301437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WavesSaverLoader/WavesSaverLoader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 669DAFDR74;
+				INFOPLIST_FILE = WavesSaverLoader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johannmg.WavesSaverLoader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2D94B7F62169943B00301437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 669DAFDR74;
+				INFOPLIST_FILE = WavesSaverLoaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johannmg.WavesSaverLoaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WavesSaverLoader.app/Contents/MacOS/WavesSaverLoader";
+			};
+			name = Debug;
+		};
+		2D94B7F72169943B00301437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 669DAFDR74;
+				INFOPLIST_FILE = WavesSaverLoaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johannmg.WavesSaverLoaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WavesSaverLoader.app/Contents/MacOS/WavesSaverLoader";
+			};
+			name = Release;
+		};
 		2DC82C55215CAA2400B72DDC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -259,6 +539,7 @@
 				DEVELOPMENT_TEAM = 669DAFDR74;
 				INFOPLIST_FILE = WavesSaverC/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.johannmg.WavesSaverC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
@@ -273,6 +554,7 @@
 				DEVELOPMENT_TEAM = 669DAFDR74;
 				INFOPLIST_FILE = WavesSaverC/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_BUNDLE_IDENTIFIER = com.johannmg.WavesSaverC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = saver;
@@ -282,6 +564,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2D94B7F82169943B00301437 /* Build configuration list for PBXNativeTarget "WavesSaverLoader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D94B7F42169943B00301437 /* Debug */,
+				2D94B7F52169943B00301437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D94B7F92169943B00301437 /* Build configuration list for PBXNativeTarget "WavesSaverLoaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D94B7F62169943B00301437 /* Debug */,
+				2D94B7F72169943B00301437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2DC82C47215CAA2300B72DDC /* Build configuration list for PBXProject "WavesSaverC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
