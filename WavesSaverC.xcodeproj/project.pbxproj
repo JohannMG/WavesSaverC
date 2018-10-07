@@ -24,6 +24,7 @@
 		2D94B80E216996E400301437 /* WavesSaverCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC82C52215CAA2400B72DDC /* WavesSaverCView.m */; };
 		2D94B80F216996E400301437 /* Bar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC82C5B215CAADA00B72DDC /* Bar.m */; };
 		2D94B810216996E400301437 /* ArtBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC82C5F215CB4D000B72DDC /* ArtBox.m */; };
+		2D94B8112169992200301437 /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D94B7D121698C0500301437 /* ScreenSaver.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D94B8112169992200301437 /* ScreenSaver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

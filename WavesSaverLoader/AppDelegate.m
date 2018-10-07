@@ -19,17 +19,22 @@
 }
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-  _screensaverView = [[WavesSaverCView alloc] initWithFrame:CGRectMake(0, 0, 600, 400) isPreview:NO];
+  _screensaverView = [[WavesSaverCView alloc] initWithFrame:CGRectMake(0, 0, 800, 600) isPreview:NO];
   [self.window.contentView addSubview:_screensaverView];
   
-  WavesSaverCView __weak *_ssVview = _screensaverView;
+  [_screensaverView startAnimation];
   
-  [NSTimer scheduledTimerWithTimeInterval:0.25
-                                   target:_ssVview
-                                 selector:@selector(animateOneFrame)
+  [NSTimer scheduledTimerWithTimeInterval:1.0/ 30.0
+                                   target:self
+                                 selector:@selector(updateManual)
                                  userInfo:nil
                                   repeats:YES];
-  
+}
+
+- (void)updateManual
+{
+  [_screensaverView animateOneFrame];
+  [self.window.contentView setNeedsDisplay:YES];
 }
 
 

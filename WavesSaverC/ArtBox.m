@@ -63,14 +63,13 @@ static const CGFloat kConnectorThickness = 1.0;
     [bar updateWithNoiseRatio:kMotionDampening];
   }];
   
-  CGContextRef context = NSGraphicsContext.currentContext.CGContext;
-  
 //  drawLines(withContext: NSGraphicsContext.current!.cgContext)
-  [self _drawLinesWithContext:context];
+  [self _drawLinesWithContext:NSGraphicsContext.currentContext.CGContext];
+  NSLog(@"_drawLinesWithContext");
 //  drawConnectors(withContext: NSGraphicsContext.current!.cgContext)
-  [self _drawConnectorsWithContext:context];
+  [self _drawConnectorsWithContext:NSGraphicsContext.currentContext.CGContext];
 //  drawPivotsToContext(context: NSGraphicsContext.current!.cgContext)
-  [self _drawPivotsToContext:context];
+  [self _drawPivotsToContext:NSGraphicsContext.currentContext.CGContext];
   
 }
 
@@ -151,7 +150,8 @@ static const CGFloat kConnectorThickness = 1.0;
   CGPathMoveToPoint(path, nil, xOffset, (CGFloat)value - (kPivotHeight / 2.0));
   CGPathAddLineToPoint(path, nil, xOffset, (CGFloat)value + (kPivotHeight / 2.0));
   
-  CGPathCloseSubpath(path);CGContextAddPath(context, path);
+  CGPathCloseSubpath(path);
+  CGContextAddPath(context, path);
   
 }
 
